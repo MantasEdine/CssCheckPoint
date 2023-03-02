@@ -1,0 +1,72 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  width: 100%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  height: 5vh;
+  background-color: beige;
+}
+.navbar > li {
+  display: inline;
+  padding: 2rem 2rem;
+}
+.navbar a {
+  display: inline-block;
+  margin: 0 10px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: red;
+}
+.about {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+.portfolio {
+  background-color: #fff;
+  padding: 20px;
+}
+.portfolio ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.portfolio li {
+  margin: 10px 0;
+}
+.contact {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+.contact form {
+  display: flex;
+  flex-direction: column;
+}
+.contact label {
+  margin-bottom: 10px;
+}
+.contact input,
+.contact textarea {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.contact button {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007;
+}
